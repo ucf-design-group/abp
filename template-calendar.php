@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact */
+<?php /* Template Name: Calendar */
 
 get_header(); ?>
 

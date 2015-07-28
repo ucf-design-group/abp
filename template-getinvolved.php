@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact */
+<?php /* Template Name: Get Involved */
 
 get_header(); ?>
 

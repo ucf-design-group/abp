@@ -1,4 +1,4 @@
-<?php /* Template Name: Contact */
+<?php /* Template Name: Trips */
 
 get_header(); ?>
 
