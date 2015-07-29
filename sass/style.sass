@@ -14,10 +14,14 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700")
 
 // Necessary imports, feel free to explore and hack though :)
-@import reset, menu, footer
+@import reset, menu, footer, home
+
+// Include new font
 
 // Base variables
 $baseTypeFace: 'Open Sans', sans-serif
+
+// included font
 
 // Base layout/type
 html
@@ -34,3 +38,18 @@ body
 		display: table 
 	&:after
 		clear: both
+
+// Header Styles
+
+header
+	background-color: #178caf
+
+.header-wrap
+	width: 100%
+
+.logo-wrap
+	padding: 2em 0 0 0
+	width: 1200px
+	margin: auto
+	max-width: 100%
+	text-align: center

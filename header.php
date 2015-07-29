@@ -22,6 +22,11 @@
 	<body <?php echo $body_class; ?>>
 		<div class="page">
 			<header>
+				<div class="header-wrap">	
+					<div class="logo-wrap">
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/resources/abp-logo.png" alt="ABP">
+					</div>
+				</div>
 				<nav class="main-menu full">
 					<div class="screen-reader-text skip-link"><a href="#UPDATE ME" title="Skip to content">Skip to content</a></div>
 					<div class="compact-menu">
@@ -49,11 +54,11 @@
 						<li<?php echo $nav_li_class; ?>><a href="<?php echo $link; ?>"><?php echo $name; ?></a></li>
 <?php 							}
 							} ?>
-						<li>
+						<!-- Search Commented Out: <li>
 							<form method="get" id="searchform" class="searchform" action="http://localhost/wp/" role="search">
 								<input type="search" class="field" name="s" value="" id="s" placeholder="Search &#133;" />
 							</form>
-						</li>
+						</li>-->
 					</ul>
 				</nav>
 			</header>
