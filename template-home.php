@@ -10,13 +10,12 @@ get_header(); ?>
 		</div>
 
 		<section class="icons">
-			<div class="plane-wrap">
+				<div class="plane-wrap">
+				</div>
+				<div class="footprints-wrap">
+				</div>
+				<div class="case-wrap">
 			</div>
-			<div class="footprints-wrap">
-			</div>
-			<div class="case-wrap">
-			</div>
-		
 		</section>
 
 			<div class="main">
