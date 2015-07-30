@@ -4,34 +4,29 @@ get_header(); ?>
 
 	<div class="content-area">
 
+		<h1 class="tagline"> Your Adventure. Your Impact. </h1>
+
 		<div class="header-slider">
 		</div>
 
-		<div class="main">
-			<?php
+		<section class="icons">
+			<div class="plane-wrap">
+			</div>
+			<div class="footprints-wrap">
+			</div>
+			<div class="case-wrap">
+			</div>
+		
+		</section>
+
+			<div class="main">
+<?php
 				while (have_posts()) {
 					the_post();
 					get_template_part( 'content' );
-				} ?>
-		</div>
-
-		<section class="icons">
-			<div class="serve-wrap">
-				<img>
-				</img>
-				<h1>Serve</h1>
+				} 
+?>
 			</div>
-			<div class="grow-wrap">
-				<img>
-				</img>
-				<h1>Grow</h1>
-			</div>
-			<div class="impact-wrap">
-				<img>
-				</img>
-				<h1>Impact</h1>
-			</div>
-		</section>
 
 		<section class="video">
 			<div class="video-wrap">
@@ -70,6 +65,7 @@ get_header(); ?>
 				<div class="facebook-btn">
 					<a href="#" target="_blank">
 					<img></img>
+					
 					</a>
 				</div>
 				<div class="twitter-btn">

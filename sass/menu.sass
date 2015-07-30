@@ -17,6 +17,7 @@ nav.main-menu.full
 		margin: auto
 		max-width: 100%
 		padding-bottom: 20px
+		font-family: 'Josefin Slab'
 
 		li.current
 
@@ -31,14 +32,12 @@ nav.main-menu.full
 			padding: 0 2em
 
 			&:nth-child(3)
-				margin-right: 50em
+				margin-right: 45em
 
 			a
 				font-size: 2em
 				color: white
 				transition: color 0.25s ease-in-out
-
-				&:hover
 	
 	.compact-menu
 		display: none
@@ -60,3 +59,24 @@ nav.main-menu.compact
 
 .screen-reader-text
 	display: none
+
+@media screen and (max-width: 1149px) 
+
+	nav.main-menu.full
+		ul
+			li
+
+				&:nth-child(3)
+					margin-right: 30em
+
+@media screen and (max-width: 999px)
+
+	nav.main-menu.full
+		ul
+			padding-top: 20px
+
+			li
+
+				&:nth-child(3)
+					margin-right: 0
+
