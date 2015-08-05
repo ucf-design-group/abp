@@ -166,6 +166,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/resources\/facebook-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22988,
+		"inputAbbreviatedPath": "\/resources\/facebook-logo.png",
+		"outputAbbreviatedPath": "\/resources\/facebook-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/footprints-dark.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -173,6 +184,17 @@
 		"initialSize": 80439,
 		"inputAbbreviatedPath": "\/resources\/footprints-dark.png",
 		"outputAbbreviatedPath": "\/resources\/footprints-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/instagram-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22760,
+		"inputAbbreviatedPath": "\/resources\/instagram-logo.png",
+		"outputAbbreviatedPath": "\/resources\/instagram-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -195,6 +217,17 @@
 		"initialSize": 26657,
 		"inputAbbreviatedPath": "\/resources\/plane-dark.png",
 		"outputAbbreviatedPath": "\/resources\/plane-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/resources\/twitter-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24515,
+		"inputAbbreviatedPath": "\/resources\/twitter-logo.png",
+		"outputAbbreviatedPath": "\/resources\/twitter-logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -272,6 +305,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/style.sass",
 		"outputAbbreviatedPath": "\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/sass\/trips.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/trips.sass",
+		"outputAbbreviatedPath": "\/trips.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

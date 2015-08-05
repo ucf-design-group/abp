@@ -4,8 +4,6 @@ get_header(); ?>
 
 	<div class="content-area">
 
-		<h1 class="tagline"> Your Adventure. Your Impact. </h1>
-
 		<div class="header-slider">
 		</div>
 
@@ -18,18 +16,18 @@ get_header(); ?>
 			</div>
 		</section>
 
-			<div class="main">
+		<div class="main">
 <?php
-				while (have_posts()) {
-					the_post();
-					get_template_part( 'content' );
-				} 
+			while (have_posts()) {
+				the_post();
+				get_template_part( 'content' );
+			} 
 ?>
-			</div>
+		</div>
 
 		<section class="video">
 			<div class="video-wrap">
-			<iframe width="650" height="400" src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
+				<iframe src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="join-wrap">
 			<h1> Why Join? </h1>
@@ -48,6 +46,7 @@ get_header(); ?>
 		</section>
 
 		<section class="contact-social">
+
 			<div class="contact-wrap">
 				<h1>Get In Touch With Us!</h1>
 				<div>

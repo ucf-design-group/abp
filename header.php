@@ -63,4 +63,5 @@
 					</ul>
 				</nav>
 			</header>
+			<h1 class="tagline"> Your Adventure. Your Impact. </h1>
 <!-- HEADER END -->
