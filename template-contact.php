@@ -39,19 +39,19 @@ get_header(); ?>
 						<h2>Follow Us</h2>
 						<div class="facebook-btn">
 							<a href="#" target="_blank">
-							<img></img>
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/facebook-logo.png" />
 							<p>Follow us on FACEBOOK</p>
 							</a>
 						</div>
 						<div class="twitter-btn">
 							<a href="#" target="_blank">
-							<img></img>
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/twitter-logo.png" />
 							<p>Follow us on TWITTER</p>
 							</a>
 						</div>
 						<div class="instagram-btn">
 							<a href="#" target="_blank">
-							<img></img>
+							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/instagram-logo.png" />
 							<p>Follow us on INSTAGRAM</p>
 							</a>
 						</div>
