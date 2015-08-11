@@ -14,57 +14,82 @@
 			font-size: 2.5em
 			letter-spacing: 4px
 
+		a
+			text-decoration: none
 
-	.main
-		height: 100%
-
-		.entry-title
-			display: none
-
-		.participant
-			float: left
-			margin: 0 auto
-			width: 50%
-
-			/* second h2 selector the same style. change location */
-			h2
+			button
+				border: none
+				display: block
+				margin: 0 auto
+				background-color: #178caf
+				color: #fff9ee
+				padding: 4%
+				margin-bottom: 50px
 				font-family: 'Josefin Slab'
-				font-size: 3.5em
-				color:  #c1ab84		
-				text-align: center
-				padding: 8%
+				font-size: 1.5em
+				-webkit-border-radius: 10px
+				-moz-border-radius: 10px
+				border-radius: 10px
 
-			h3
-				font-family: 'Josefin Slab'
-				font-size: 2.5em
-				color: #178caf
-				letter-spacing: 3px
-				margin: 0 8% 3% 8%
-
-			p
-				margin: 0 8% 3% 8%
+				&:hover
+					background: darken(#178caf, 10%)
+					box-shadow: 1px 1px 2px rgba(#fff, .2)
+					color: lighten(#fff9ee, 18%)
+					transition: all 250ms linear
+					cursor: pointer
 
 
-		.faculty-advisor
-			float: left
-			margin: 0 auto
-			width: 50%
-			height: inherit
-			background-color: #d0eaf2
+		.main
+			height: 100%
 
-			h2
-				font-family: 'Josefin Slab'
-				font-size: 3.5em
-				color:  #c1ab84		
-				text-align: center
-				padding: 8%
+			.entry-title
+				display: none
 
-			h3
-				font-family: 'Josefin Slab'
-				font-size: 2.5em
-				color: #178caf
-				letter-spacing: 3px
-				margin: 0 8% 3% 8%
+			.participant
+				float: left
+				margin: 0 auto
+				width: 50%
 
-			p
-				margin: 0 8% 3% 8%
+				/* second h2 selector the same style. change location */
+				h2
+					font-family: 'Josefin Slab'
+					font-size: 3.5em
+					color:  #c1ab84		
+					text-align: center
+					padding: 8%
+
+				h3
+					font-family: 'Josefin Slab'
+					font-size: 2.5em
+					color: #178caf
+					letter-spacing: 3px
+					margin: 0 8% 3% 8%
+
+				p
+					margin: 0 8% 3% 8%
+					font-size: 1.25em
+
+			.faculty-advisor
+				float: left
+				margin: 0 auto
+				width: 50%
+				background-color: #d0eaf2
+				padding-bottom: 10%
+
+				h2
+					font-family: 'Josefin Slab'
+					font-size: 3.5em
+					color:  #c1ab84		
+					text-align: center
+					padding: 8%
+
+				h3
+					font-family: 'Josefin Slab'
+					font-size: 2.5em
+					color: #178caf
+					letter-spacing: 3px
+					margin: 0 8% 3% 8%
+
+				p
+					margin: 0 8% 3% 8%
+					font-size: 1.25em
