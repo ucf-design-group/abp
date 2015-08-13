@@ -93,8 +93,22 @@ function custom_post_types() {
 		'taxonomies' => array(),
 		'has_archive' => false,
 		));
+
+	register_post_type('leadership', 
+		array(
+			'labels' => array(
+				'name' => 'Leadership',
+				'singular_name' => 'Leader'),
+		'public' => true,
+		'rewrite' => array ('slug' => 'leadership'),
+		'hierarchical' => false,
+		'supports' => array('title', 'editor', 'thumbnail'),
+		'taxonomies' => array('category'),
+		'has_archive' => false
+		));
 }
-//add_action('init', 'custom_post_types');
+
+add_action('init', 'custom_post_types');
 
 
 /* Change dashboard icons for the custom post types.
@@ -124,94 +138,4 @@ function cpt_icons() {
 /* To include other collections of functions, include_once() the relevant files here. */
 
 include_once("functions/functions-nav.php");
-
-function leader_cpt() {
-	register_post_type('leadership',
-		array(
-			'labels' => array (
-				'name' => __( 'Leadership' ),
-				'singular_name' => __( 'Leader' )
-			),
-			'public' => true,
-			'rewrite' => array('slug' => 'leadership'),
-			'supports' => array('title', 'editor', 'thumbnail'),
-			'taxonomies' => array('category')
-			)
-		);
-}
-
-add_action('init', 'leader_cpt');
-
-function leader_meta_setup() {
-
-	add_action('add_meta_boxes', 'leader_meta_add');
-	add_action('save_post', 'leader_meta_save');
-}
-add_action('load-post.php', 'leader_meta_setup');
-add_action('load-post-new.php', 'leader_meta_setup');
-
-function leader_meta_add() {
-
-	add_meta_box (
-	'leader_meta',
-	'Leader Information',
-	'leader_meta',
-	'leadership',
-	'side',
-	'default');
-}
-
-function leader_meta() {
-
-	global $post;
-	wp_nonce_field(basename( __FILE__ ), 'leader-form-nonce' );
-
-	$order = get_post_meta($post->ID, 'leader-form-order', true) ? get_post_meta($post->ID, 'leader-form-order', true) : '';
-
-	?>
-	<style type="text/css">#leader-form-order{width: 50px;}#leader-form div{display:inline-block; padding:0 5px;}</style>
-	<div id="leader-form">
-		<div>
-			<label for="leader-form-order">Order on Page:</label>
-			<input type="text" name="leader-form-order" id="leader-form-order" value="<?php echo $order; ?>" />
-		</div>
-	</div>
-	<?php
-}
-
-
-function leader_meta_save() {
-
-	global $post;
-	$post_id = $post->ID;
-
-	if (!isset($_POST['leader-form-nonce']) || !wp_verify_nonce($_POST['leader-form-nonce'], basename( __FILE__ ))) {
-		return $post->ID;
-	}
-
-	$post_type = get_post_type_object($post->post_type);
-
-	if (!current_user_can($post_type->cap->edit_post, $post_id)) {
-		return $post->ID;
-	}
-
-	$input = array();
-
-	$input['order'] = (isset($_POST['leader-form-order']) ? $_POST['leader-form-order'] : '');
-
-	$input['order'] = str_pad($input['order'], 3, "0", STR_PAD_LEFT);
-
-	foreach ($input as $field => $value) {
-
-		$old = get_post_meta($post_id, 'leader-form-' . $field, true);
-
-		if ($value && '' == $old)
-			add_post_meta($post_id, 'leader-form-' . $field, $value, true );
-		else if ($value && $value != $old)
-			update_post_meta($post_id, 'leader-form-' . $field, $value);
-		else if ('' == $value && $old)
-			delete_post_meta($post_id, 'leader-form-' . $field, $old);
-	}
-}
-
-?>
+include_once("functions/functions-board.php");

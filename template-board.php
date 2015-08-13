@@ -2,12 +2,17 @@
 
 get_header(); ?>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
-			<?php while ( have_posts() ) : the_posts(); ?>
-				<?php get_template_part( 'content', 'page' ); ?>
-			<?php endwhile; // end of the loop ?>
+	<div class="content-area">
 
+		<div class="main">
+			<?php
+			while (have_posts()) {
+				the_post();
+				get_template_part( 'content' );
+			} ?>
+		</div>
+
+		<div class="leader">
 <?php
 			$leaderQuery = new WP_QUERY(array('post_type' => 'leadership', 'posts_per_page' => -1, 'meta_key' => 'leader-form-order', 'orderby' => 'meta_value', 'order' => 'ASC'));
 
@@ -20,15 +25,18 @@ get_header(); ?>
 				$image = get_the_post_thumbnail($post->ID, 'small');
 				$slug = $post->post_name;
 ?>
-
-			<article id="<?php echo $slug; ?>" class="leader">
-				<div class="info">
-					<h1><?php echo $title; ?></h1>
-				</div>
-			</article>
+	 		<article id="<?php echo $slug; ?>" class="leader">
+	 			<?php echo $image; ?>
+	 			<div class="info">
+	 				<h1><?php echo $title; ?></h1>
+	 				<?php echo $content; ?>
+	 			</div>
+	 		</article>
 <?php
-			}
+ 			}
 ?>
-		</div>
+ 		</div>
+
 	</div>
+
 <?php get_footer(); ?>
