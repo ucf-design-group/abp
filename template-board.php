@@ -12,7 +12,7 @@ get_header(); ?>
 			} ?>
 		</div>
 
-		<div class="leader">
+		<section class="leader-board">
 <?php
 			$leaderQuery = new WP_QUERY(array('post_type' => 'leadership', 'posts_per_page' => -1, 'meta_key' => 'leader-form-order', 'orderby' => 'meta_value', 'order' => 'ASC'));
 
@@ -35,7 +35,7 @@ get_header(); ?>
 <?php
  			}
 ?>
- 		</div>
+ 		</section>
 
 	</div>
 
