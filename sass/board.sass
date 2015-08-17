@@ -1,41 +1,51 @@
 .page-board
 	background-color: #fff9ee
 
-	//Leadership ------------//
-	section.leader-board
-		max-width: 100%
-		width: 1200px
-		padding: 1em
-		margin: auto
-		@extend %clearfix
+	.content-area
 
-	article.leader
-		float: left
-		width: 380px
-		height: 380px
-		margin-right: 1.25%
-		margin-bottom: 1%
-		background: cover
-		background-repeat: no-repeat
-		background-position: center
-		position: relative
+		//Main ------------------//
+		.main
+			text-align: justify
+			margin: 8% 20% 8% 20%
 
-		img
-			display: block
-			margin: 0 auto
+			.entry-title
+				display: none
 
-		&:nth-of-type(3n+3)
-			margin-right: 0
+		//Leadership ------------//
+		section.leader-board
+			max-width: 100%
+			width: 1200px
+			padding: 1em
+			margin: auto
+			@extend %clearfix
 
-	div.info
-		width: 95%
-		padding-bottom: 0.5em
-		text-align: center
+		article.leader
+			float: left
+			width: 380px
+			height: 380px
+			margin-right: 1.25%
+			margin-bottom: 1%
+			background: cover
+			background-repeat: no-repeat
+			background-position: center
+			position: relative
 
-		h1
-			font-size: 2em
-			font-family: 'Josefin Slab'
-			color: #178caf
+			img
+				display: block
+				margin: 0 auto
 
-		h2
-			font-size: 1.25em
+			&:nth-of-type(3n+3)
+				margin-right: 0
+
+		div.info
+			width: 95%
+			padding-bottom: 0.5em
+			text-align: center
+
+			h1
+				font-size: 2em
+				font-family: 'Josefin Slab'
+				color: #178caf
+
+			h2
+				font-size: 1.25em

@@ -4,7 +4,7 @@ get_header(); ?>
 
 	<div class="content-area">
 
-		<h1>TRIPS</h1>
+		<h1 class="page-title">Trips</h1>
 
 		<ul class="categories">
 			<a href="#"><li>Fall Trips</li></a>

@@ -4,6 +4,8 @@ get_header(); ?>
 
 	<div class="content-area">
 
+		<h1 class="page-title">2015/2016 Board</h1>
+
 		<div class="main">
 			<?php
 			while (have_posts()) {

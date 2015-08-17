@@ -4,7 +4,7 @@ get_header(); ?>
 
 	<div class="content-area">
 
-		<h1>Participant and Faculty Advisor Selection</h1>
+		<h1 class="page-title">Participant and Faculty Advisor Selection</h1>
 
 		<div class="main">
 <?php

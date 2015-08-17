@@ -4,7 +4,7 @@ get_header(); ?>
 
 	<div class="content-area">
 
-			<h1>CONTACT</h1>
+			<h1 class="page-title">Contact</h1>
 
 			<section class="contact-wrap">
 
