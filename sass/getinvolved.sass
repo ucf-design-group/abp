@@ -1,84 +1,82 @@
 .page-get-involved
 	background-color: $abpWhite
 
-	.content-area
+	// General Font Rules --------------- //
+	a
+		text-decoration: none
 
-		a
-			text-decoration: none
+		button
+			border: none
+			display: block
+			margin: 0 auto
+			background-color: $abpBlue
+			color: $abpWhite
+			padding: 2.5%
+			margin-bottom: 50px
+			font-family: 'Josefin Slab'
+			font-size: 1.5em
+			-webkit-border-radius: 10px
+			-moz-border-radius: 10px
+			border-radius: 10px
 
-			button
-				border: none
-				display: block
-				margin: 0 auto
-				background-color: $abpBlue
-				color: $abpWhite
-				padding: 2.5%
-				margin-bottom: 50px
-				font-family: 'Josefin Slab'
-				font-size: 1.5em
-				-webkit-border-radius: 10px
-				-moz-border-radius: 10px
-				border-radius: 10px
+			&:hover
+				background: darken($abpBlue, 10%)
+				box-shadow: 1px 1px 2px rgba(#fff, .2)
+				color: lighten($abpWhite, 18%)
+				transition: all 250ms linear
+				cursor: pointer
 
-				&:hover
-					background: darken($abpBlue, 10%)
-					box-shadow: 1px 1px 2px rgba(#fff, .2)
-					color: lighten($abpWhite, 18%)
-					transition: all 250ms linear
-					cursor: pointer
+	h2
+		font-family: 'Josefin Slab'
+		font-size: 3.5em
+		color:  $abpTan		
+		text-align: center
+		padding: 8%
 
+	p
+		margin: 0 8% 0 8%
+		font-size: 1.25em
+		padding-bottom: 3%
+
+	h3
+		font-family: 'Josefin Slab'
+		font-size: 2.5em
+		color: $abpBlue
+		letter-spacing: 3px
+		margin: 0 8% 0 8%
+
+
+	// Layout Styling ------------------- //
+
+	.main
+		height: 1100px
+
+		.participant
+			float: left
+			margin: 0 auto
+			width: 50%
+
+		.faculty-advisor
+			float: left
+			margin: 0 auto
+			width: 50%
+			background-color: $abpVeryLightBlue
+			padding-bottom: 10%
+
+	// Responsive Styling -------------- //
+	@media screen and (max-width: 650px)
 
 		.main
 			height: 100%
 
-			.entry-title
-				display: none
-
 			.participant
-				float: left
-				margin: 0 auto
-				width: 50%
-
-				/* second h2 selector the same style. change location */
-				h2
-					font-family: 'Josefin Slab'
-					font-size: 3.5em
-					color:  $abpTan		
-					text-align: center
-					padding: 8%
-
-				h3
-					font-family: 'Josefin Slab'
-					font-size: 2.5em
-					color: $abpBlue
-					letter-spacing: 3px
-					margin: 0 8% 3% 8%
-
-				p
-					margin: 0 8% 3% 8%
-					font-size: 1.25em
+				float: none
+				display: block
+				height: 100%
+				width: 100%
 
 			.faculty-advisor
-				float: left
-				margin: 0 auto
-				width: 50%
-				background-color: $abpVeryLightBlue
-				padding-bottom: 10%
-
-				h2
-					font-family: 'Josefin Slab'
-					font-size: 3.5em
-					color:  $abpTan		
-					text-align: center
-					padding: 8%
-
-				h3
-					font-family: 'Josefin Slab'
-					font-size: 2.5em
-					color: $abpBlue
-					letter-spacing: 3px
-					margin: 0 8% 3% 8%
-
-				p
-					margin: 0 8% 3% 8%
-					font-size: 1.25em
+				float: none
+				display: block
+				height: 100%
+				width: 100%
