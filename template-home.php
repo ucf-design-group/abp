@@ -17,6 +17,8 @@ get_header(); ?>
 		</section>
 
 		<div class="main">
+
+		<h1>What is Alternative Break Program?</h1>
 <?php
 			while (have_posts()) {
 				the_post();
@@ -30,7 +32,7 @@ get_header(); ?>
 				<iframe src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="join-wrap">
-			<h1> Why Join? </h1>
+			<h1 class="home-title"> Why Join? </h1>
 				<ul>
 					<li>You will be making a difference</li>
 					<li>New long-lasting friendships</li>
@@ -48,7 +50,7 @@ get_header(); ?>
 		<section class="contact-social">
 
 			<div class="contact-wrap">
-				<h1>Get In Touch With Us!</h1>
+				<h1 class="home-title">Get In Touch With Us!</h1>
 				<div>
 					<span>Volunteer UCF Office:</span> (407) 823-3318
 				</div>
@@ -58,7 +60,9 @@ get_header(); ?>
 				<div>
 					<span>OSI Fax:</span> (407) 823-5899
 				</div>
+				<br>
 				<div>The Volunteer UCF Cubicle is located in the Office of Student Involvement (SU 208).</div>
+				<br>
 				<div class="vucf-address"> 
 					University of Central Florida
 					<br>
@@ -74,7 +78,7 @@ get_header(); ?>
 
 			<div class="social-wrap">
 				<div class="social-btns">
-					<h1>Socialize!</h1>
+					<h1 class="home-title">Socialize!</h1>
 					<div class="facebook-btn">
 						<div class="facebook-btn">
 							<a href="#" target="_blank">

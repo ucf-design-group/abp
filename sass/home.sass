@@ -1,123 +1,139 @@
 .page-home
 
-	.content-area
+	// Icon Section -----------//
+	.icons
+		background-color: #5eb4cc
+		height: 210px
+		position: relative
 
-		.header-slider
-			height: 600px
+		.plane-wrap
+			height: 200px
+			width: 33.33%
+			float: left
+			margin: 0 auto
+			background: url("resources/plane-dark.png") no-repeat center
 
-		.icons
-			background-color: #5eb4cc
-			height: 210px
-			position: relative
+		.footprints-wrap
+			height: 200px
+			width: 33.33%
+			float: left
+			margin: 0 auto
+			background: url("resources/footprints-dark.png") no-repeat center
 
-			.plane-wrap
-				height: 200px
-				width: 33.33%
-				float: left
-				margin: 0 auto
-				background: url("resources/plane-dark.png") no-repeat center
+		.case-wrap
+			height: 200px
+			float: left
+			width: 33.33%
+			margin: 0 auto
+			background: url("resources/case-dark.png") no-repeat center
 
-			.footprints-wrap
-				height: 200px
-				width: 33.33%
-				float: left
-				margin: 0 auto
-				background: url("resources/footprints-dark.png") no-repeat center
+	// About section -----------//
+	.main
+		background-color: #fff9ee
+		padding: 8% 10% 8% 10%
+		text-align: justify
 
-			.case-wrap
-				height: 200px
-				float: left
-				width: 33.33%
-				margin: 0 auto
-				background: url("resources/case-dark.png") no-repeat center
+		h1
+			font-family: 'Josefin Slab'
+			font-size: 4em
+			color: #c1ab84
+			letter-spacing: 2px
+			margin-bottom: 3%
 
-		.main
-			background-color: #fff9ee
-			padding: 8% 10% 8% 10%
+		p
+			font-size: 1.5em
+			color: #051d24
+
+	// Video and Why Join Section -----------//
+	.video
+		background-color: #051d24
+		height: 500px
+
+		.video-wrap
+			float: left
+			margin: 3% 2% 0 10%
+
+		.join-wrap
+			float: left
+			margin: 3% 0 0 7%
+			padding: 2%
+
+			h1
+				font-family: 'Josefin Slab'
+				font-size: 4em
+				color: #c1ab84
+				letter-spacing: 2px
+
+			ul
+				color: #fff9ee
+				font-size: 1.5em
+
+	// Contact and Social Button Section -----------//
+	.contact-social
+		height: 500px
+		background-color: #d0eaf2
+		margin: 0 auto
+		width: 100%
+
+		.contact-wrap
+			float: left
+			margin: 0 auto
+			padding: 0 7% 0 7%
 			text-align: justify
+			font-size: 1.5em
+			width: 50%
 
-			.entry-title
+			h1
+				font-family: 'Josefin Slab'
+				font-size: 3em
+				color: #c1ab84
+				letter-spacing: 2px
+				margin-bottom: 5%
+				margin-top: 7%
 
-				a
-					font-size: 3em
-					text-decoration: none
-					color: #c1ab84
-					font-family: 'Josefin Slab'
+			span
+				font-weight: bold
+
+		.social-wrap
+			float: left
+			background-color:  #fff9ee
+			width: 50%
+			margin: 0 auto
+			height: 100%
+			padding: 0 15% 0 15%
+
+			h1
+				font-family: 'Josefin Slab'
+				font-size: 5.25em
+				color: #c1ab84
+				letter-spacing: 2px
+				margin-bottom: 5%
+				margin-top: 6%
+
+			.facebook-btn, .twitter-btn, .instagram-btn
+				clear: both
+
+			img
+				float: left
+				height: 40px
 
 			p
-				font-size: 2em
+				float: left
+				font-size: 1.75em
 				color: #051d24
+				margin-bottom: 2%
 
-		.video
-			background-color: #051d24
-			height: 500px
-
-			.video-wrap
-				float: left
-				margin: 3% 2% 0 10%
-
-			.join-wrap
-				float: left
-				margin: 3% 0 0 7%
-				padding: 2%
-
-				/* selector to make general */
-				h1
-					font-family: 'Josefin Slab'
-					font-size: 4em
-					color: #c1ab84
-					letter-spacing: 2px
-
-				ul
-					color: #fff9ee
-					font-size: 1.5em
+	// Responsive Stylings -------------//
+	@media screen and (max-width: 800px)
 
 		.contact-social
-			height: 500px
-			text-align: center
-			background-color: #d0eaf2
-			margin: 0 auto
-			width: 100%
 
 			.contact-wrap
-				float: left
-				margin: 0 auto
-				font-size: 1.5em
-				width: 50%
-
-				h1
-					font-family: 'Josefin Slab'
-					font-size: 3em
-					color: #c1ab84
-					letter-spacing: 2px
-					margin-bottom: 5%
-					margin-top: 7%
-
-				span
-					font-weight: bold
+				display: block
+				width: 100%
+				padding-bottom: 10%
 
 			.social-wrap
-				float: left
-				background-color:  #fff9ee
-				width: 50%
-				margin: 0 auto
-				height: 100%
-
-				h1
-					font-family: 'Josefin Slab'
-					font-size: 5.25em
-					color: #c1ab84
-					letter-spacing: 2px
-					margin-bottom: 5%
-					margin-top: 6%
-
-				.facebook-btn, .twitter-btn, .instagram-btn
-					clear: both
-
-				img
-					float: left
-					height: 40px
-
-				p
-					float: left	
-
+				display: block
+				width: 100%
+				padding: 0 7% 0 7%

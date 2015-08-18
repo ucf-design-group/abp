@@ -2,6 +2,8 @@
 
 get_header(); ?>
 
+	<h1 class="page-title">Calendar</h1>
+
 	<div class="main">
 <?php
 			while (have_posts()) {
