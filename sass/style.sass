@@ -15,7 +15,7 @@
 @import url("http://fonts.googleapis.com/css?family=Josefin+Slab:400,600")
 
 // Necessary imports, feel free to explore and hack though :)
-@import reset, menu, footer, home, trips, getinvolved, contact, calendar, board
+@import reset, variables, menu, footer, home, trips, getinvolved, contact, calendar, board 
 
 // Include new font
 
@@ -43,13 +43,13 @@ body
 //header styles ---------------//
 
 header
-	background-color: #178caf
+	background-color: $abpBlue
 
 .tagline
 	text-align: center
 	font-size: 2.25em
 	color: #fff
-	background-color: #051d24
+	background-color: $abpBlack
 	padding: .5em 0 .5em 0
 	font-family: 'Josefin Slab'
 	letter-spacing: 3px
@@ -66,11 +66,11 @@ header
 
 //title for each page --------//
 .page-title
-	background-color: #c1ab84
+	background-color: $abpTan
 	padding: .5em
 	text-align: center
 	font-family: 'Josefin Slab'
-	color: #fff9ee
+	color: $abpWhite
 	font-size: 2.25em
 	letter-spacing: 4px
 	text-transform: uppercase

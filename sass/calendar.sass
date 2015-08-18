@@ -1,81 +1,68 @@
 .page-calendar
-	
-	.main
 
-		// General rules for font ---- //
-		h2
-			font-family: 'Josefin Slab'
-			font-size: 2.75em
-			color: #c1ab84
-			margin: .5em auto .5em auto
-			text-align: center
+	// General rules for font ---- //
+	h2
+		font-family: 'Josefin Slab'
+		font-size: 2.75em
+		color: $abpTan
+		margin: .5em auto .5em auto
+		text-align: center
 
-		h3
-			font-size: 1.5em
-			color: #178caf
-			margin: .5em auto 0 auto
-			text-align: center
+	h3
+		font-size: 1.5em
+		color: $abpBlue
+		margin: .5em auto 0 auto
+		text-align: center
 
-		p
-			text-align: center
-			font-size: 1.25em	
+	p
+		text-align: center
+		font-size: 1.25em	
 
-		// Layout stylings ----------- //		
-		.top-section
-			clear: both
+	// Layout stylings ----------- //		
+	.top-section
+		clear: both
 
-			.all-trips
-				float: left
-				width: 50%
-				background-color: #fff9ee
-				height: 500px
+		.all-trips
+			float: left
+			width: 50%
+			background-color: $abpWhite
+			height: 500px
 
-			.fall-trips
-				float: left
-				width: 50%
-				background-color: #d0eaf2
-				height: 500px
+		.fall-trips
+			float: left
+			width: 50%
+			background-color: $abpVeryLightBlue
+			height: 500px
 
-		.mid-section
-			clear: both
+	.mid-section
+		clear: both
 
-			.winter-trips
-				float: left
-				width: 50%
-				background-color: #d0eaf2
-				height: 500px
+		.winter-trips
+			float: left
+			width: 50%
+			background-color: $abpVeryLightBlue
+			height: 500px
 
-			.mlk-trips
-				float: left
-				width: 50%
-				background-color: #fff9ee
-				height: 500px
+		.mlk-trips
+			float: left
+			width: 50%
+			background-color: $abpWhite
+			height: 500px
 
-		.bottom-section
-			clear: both
+	.bottom-section
+		clear: both
 
-			.international-trips
-				float: left
-				width: 50%
-				background-color: #fff9ee
-				height: 500px				
+		.international-trips
+			float: left
+			width: 50%
+			background-color: $abpWhite
+			height: 500px				
 
-			.spring-trips
-				float: left
-				width: 50%
-				background-color: #d0eaf2
-				height: 500px
+		.spring-trips
+			float: left
+			width: 50%
+			background-color: $abpVeryLightBlue
+			height: 500px
 
+	// Responsive Stylings -------------//
 	@media screen and (max-width: 600px)
-
-		.top-section
-
-			.all-trips
-				display: block
-				width: 100%
-				float: none
-
-			.fall-trips
-				display: block
-				width: 100%
-				float: none

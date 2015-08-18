@@ -1,61 +1,54 @@
 .page-trips
-	background-color: #fff9ee
+	background-color: $abpWhite
 
-	.content-area
+	.categories
+		text-align: center
 
-		.categories
-			text-align: center
+		a
+
+			&:hover
+				background-color: #e5e0d6
+				padding: 4em 0 4em 0
+				-webkit-border-radius: 10px
+				-moz-border-radius: 10px
+				-ms-border-radius: 10px
+				border-radius: 10px
+
+			li
+				display: inline-block
+				padding: 4em 2em 4em 2em
+				margin: 0 1em 0 1em
+				font-family: 'Josefin Slab'
+				font-size: 2em
+				color: $abpBlack
+
+	.date
+		background-color: $abpBlue
+		padding: .25em
+		font-size: 2.5em
+		letter-spacing: 4px
+		color: $abpWhite
+		font-family: 'Josefin Slab'
+		text-align: center
+		padding: .5%
+		margin-bottom: 5%
+
+	h2
+		font-family: 'Josefin Slab'
+		font-size: 2.5em
+		color: $abpBlue
+		margin: 2% 8% 0 8%
+		text-align: justify
+
+	p
+		font-size: 1.25em
+		margin: 0 8% 3% 8%
+		text-align: justify
+
+		strong
+			color: $abpTan
+			font-size: 1.5em
+			font-style: italic
 
 			a
-
-				&:hover
-					background-color: #e5e0d6
-					padding: 4em 0 4em 0
-					-webkit-border-radius: 10px
-					-moz-border-radius: 10px
-					-ms-border-radius: 10px
-					border-radius: 10px
-
-				li
-					display: inline-block
-					padding: 4em 2em 4em 2em
-					margin: 0 1em 0 1em
-					font-family: 'Josefin Slab'
-					font-size: 2em
-					color: #051d24
-
-		.main
-
-			.entry-title
-				display: none
-
-			.date
-				background-color: #178caf
-				padding: .25em
-				font-size: 2.5em
-				letter-spacing: 4px
-				color: #fff9ee
-				font-family: 'Josefin Slab'
-				text-align: center
-				padding: .5%
-				margin-bottom: 5%
-
-			h2
-				font-family: 'Josefin Slab'
-				font-size: 2.5em
-				color: #178caf
-				margin: 2% 8% 0 8%
-				text-align: justify
-
-			p
-				font-size: 1.25em
-				margin: 0 8% 3% 8%
-				text-align: justify
-
-				strong
-					color: #c1ab84
-					font-size: 1.5em
-					font-style: italic
-
-					a
-						color: #5eb4cc
+				color: $abpVeryLightBlue

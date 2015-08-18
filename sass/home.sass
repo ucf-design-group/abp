@@ -2,7 +2,7 @@
 
 	// Icon Section -----------//
 	.icons
-		background-color: #5eb4cc
+		background-color: $abpLightBlue
 		height: 210px
 		position: relative
 
@@ -29,24 +29,24 @@
 
 	// About section -----------//
 	.main
-		background-color: #fff9ee
+		background-color: $abpWhite
 		padding: 8% 10% 8% 10%
 		text-align: justify
 
 		h1
 			font-family: 'Josefin Slab'
 			font-size: 4em
-			color: #c1ab84
+			color: $abpTan
 			letter-spacing: 2px
 			margin-bottom: 3%
 
 		p
 			font-size: 1.5em
-			color: #051d24
+			color: $abpBlack
 
 	// Video and Why Join Section -----------//
 	.video
-		background-color: #051d24
+		background-color: $abpBlack
 		height: 500px
 
 		.video-wrap
@@ -61,17 +61,17 @@
 			h1
 				font-family: 'Josefin Slab'
 				font-size: 4em
-				color: #c1ab84
+				color: $abpTan
 				letter-spacing: 2px
 
 			ul
-				color: #fff9ee
+				color: $abpWhite
 				font-size: 1.5em
 
 	// Contact and Social Button Section -----------//
 	.contact-social
 		height: 500px
-		background-color: #d0eaf2
+		background-color: $abpVeryLightBlue
 		margin: 0 auto
 		width: 100%
 
@@ -96,7 +96,7 @@
 
 		.social-wrap
 			float: left
-			background-color:  #fff9ee
+			background-color: $abpWhite
 			width: 50%
 			margin: 0 auto
 			height: 100%
@@ -105,7 +105,7 @@
 			h1
 				font-family: 'Josefin Slab'
 				font-size: 5.25em
-				color: #c1ab84
+				color: $abpTan
 				letter-spacing: 2px
 				margin-bottom: 5%
 				margin-top: 6%
@@ -120,7 +120,7 @@
 			p
 				float: left
 				font-size: 1.75em
-				color: #051d24
+				color: $abpBlack
 				margin-bottom: 2%
 
 	// Responsive Stylings -------------//
@@ -137,3 +137,25 @@
 				display: block
 				width: 100%
 				padding: 0 7% 0 7%
+
+		.video
+			padding: 5%
+			height: 600px
+
+
+	@media screen and (max-width: 475px)
+
+		.icons
+			height: 600px
+
+			.plane-wrap
+				float: none
+				display: block
+
+			.footprints-wrap
+				float: none
+				display: block
+
+			.case-wrap
+				float: none
+				display: block
