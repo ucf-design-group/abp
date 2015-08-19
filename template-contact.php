@@ -10,8 +10,8 @@ get_header(); ?>
 
 				<div class="contact">
 					<h2>Contact Us</h2>
-					<p><span>Volunteer UCF Office:</span>(407) 823-3318</p>
-					<p><span>Office of Student Involvement Office:</span> (407) 823-6471</p>
+					<p><span>VUCF Office:</span>(407) 823-3318</p>
+					<p><span>OSI Main:</span> (407) 823-6471</p>
 					<p><span>OSI Fax:</span> (407) 823-5899</p>
 					<p>vucfabp@ucf.edu</p>
 				</div>
@@ -40,19 +40,19 @@ get_header(); ?>
 						<div class="facebook-btn">
 							<a href="#" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/facebook-logo.png" />
-							<p>Follow us on FACEBOOK</p>
+							<p>FACEBOOK</p>
 							</a>
 						</div>
 						<div class="twitter-btn">
 							<a href="#" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/twitter-logo.png" />
-							<p>Follow us on TWITTER</p>
+							<p>TWITTER</p>
 							</a>
 						</div>
 						<div class="instagram-btn">
 							<a href="#" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/instagram-logo.png" />
-							<p>Follow us on INSTAGRAM</p>
+							<p>INSTAGRAM</p>
 							</a>
 						</div>
 					</div>

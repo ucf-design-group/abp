@@ -34,17 +34,17 @@ get_header(); ?>
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="join-wrap">
-			<h1 class="home-title"> Why Join? </h1>
-				<ul>
-					<li>You will be making a difference</li>
-					<li>New long-lasting friendships</li>
-					<li>Networking</li>
-					<li>Direct contact with social issues</li>
-					<li>Traveling to new and interesting locations</li>
-					<li>Immerse yourself in a new culture and lifestyle</li>
-					<li>Working together with other schools towards a common goal</li>
-					<li>Build leadership skills for future involvement opportunities</li>
-					<li>Have fun! Give Back!</li>
+				<h1 class="home-title"> Why Join? </h1>
+					<ul>
+						<li>You will be making a difference</li>
+						<li>New long-lasting friendships</li>
+						<li>Networking</li>
+						<li>Direct contact with social issues</li>
+						<li>Traveling to new and interesting locations</li>
+						<li>Immerse yourself in a new culture and lifestyle</li>
+						<li>Working together with other schools towards a common goal</li>
+						<li>Build leadership skills for future involvement opportunities</li>
+						<li>Have fun! Give Back!</li>
 				</ul>
 			</div>
 		</section>
@@ -54,10 +54,10 @@ get_header(); ?>
 			<div class="contact-wrap">
 				<h1 class="home-title">Get In Touch With Us!</h1>
 				<div>
-					<span>Volunteer UCF Office:</span> (407) 823-3318
+					<span>VUCF Office:</span> (407) 823-3318
 				</div>
 				<div>
-					<span>Office of Student Involvement Office:</span> (407) 823-6471
+					<span>OSI Main:</span> (407) 823-6471
 				</div>
 				<div>
 					<span>OSI Fax:</span> (407) 823-5899
