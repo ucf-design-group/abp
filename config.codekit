@@ -257,6 +257,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/resources\/stock2.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 429986,
+		"inputAbbreviatedPath": "\/resources\/stock2.jpeg",
+		"outputAbbreviatedPath": "\/resources\/stock2.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/twitter-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

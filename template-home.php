@@ -4,7 +4,9 @@ get_header(); ?>
 
 	<div class="content-area">
 
-		<div class="header-slider">
+		<div class="splash-wrap">
+			<!-- Temporary Placeholder -->
+			<div class="splash-image"/>
 		</div>
 
 		<section class="icons">
@@ -29,7 +31,7 @@ get_header(); ?>
 
 		<section class="video">
 			<div class="video-wrap">
-				<iframe src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/RATme3wctPw" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<div class="join-wrap">
 			<h1 class="home-title"> Why Join? </h1>
