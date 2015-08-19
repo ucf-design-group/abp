@@ -2,18 +2,18 @@
 		</div> <!-- e/o .page -->
 		<footer>
 			<!-- IMAGES HERE -->
-			<p class="logos">
+			<section class="logos">
 				<a class="ucf" href="http://ucf.edu/">UCF</a>
 				<a class="sga" href="http://sga.ucf.edu/">SGA</a>
 				<a class="osi" href="http://osi.ucf.edu/">OSI</a>
 				<a class="dg" href="http://osi.ucf.edu/creativeservices/">Design Group</a>
-			</p>
+			</section>
 			<!-- Set the backgrounds of each anchor with logo image sprite so it's one HTTP request, use Sass -->
-			<p>
+			<section>
 				© <?php echo date('Y'); ?> University of Central Florida Office of Student Involvement<br />
 				Student Union, Room 208, 12715 Pegasus Drive, Orlando, FL 32816-3245<br />
 				Email: <a href="mailto:osi@ucf.edu">osi@ucf.edu</a> | Phone: <a href="tel:4078236471">407.823.6471</a> | Fax: <a href="tel:4078235899">407.823.5899</a><br />
-			</p>
+			</section>
 		</footer>
 		
 		<?php wp_footer(); ?>

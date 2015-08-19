@@ -1,48 +1,57 @@
 .page-board
 	background-color: $abpWhite
 
-	.content-area
+	//Main ------------------//
+	.main
+		text-align: justify
+		margin: 8% 20% 8% 20%
 
-		//Main ------------------//
-		.main
-			text-align: justify
-			margin: 8% 20% 8% 20%
+	//Leadership ------------//
+	section.leader-board
+		max-width: 100%
+		width: 1200px
+		padding: 1em
+		margin: auto
+		@extend %clearfix
 
-		//Leadership ------------//
+	article.leader
+		float: left
+		width: 380px
+		height: 380px
+		margin-bottom: 1%
+		background: cover
+		background-repeat: no-repeat
+		background-position: center
+		position: relative
+
+		img
+			display: block
+			margin: 0 auto
+
+		&:nth-of-type(3n+3)
+			margin-right: 0
+
+	div.info
+		width: 95%
+		padding-bottom: 0.5em
+		text-align: center
+		padding-right: 5%
+
+		h1
+			font-size: 2em
+			font-family: 'Josefin Slab'
+			color: $abpBlue
+
+		h2
+			font-size: 1.25em
+
+	@media screen and (max-width: 1189px)
+
 		section.leader-board
-			max-width: 100%
-			width: 1200px
-			padding: 1em
-			margin: auto
-			@extend %clearfix
+			width: 800px
 
-		article.leader
-			float: left
-			width: 380px
-			height: 380px
-			margin-right: 1.25%
-			margin-bottom: 1%
-			background: cover
-			background-repeat: no-repeat
-			background-position: center
-			position: relative
+	@media screen and (max-width: 799px)
 
-			img
-				display: block
-				margin: 0 auto
+		section.leader-board
 
-			&:nth-of-type(3n+3)
-				margin-right: 0
-
-		div.info
-			width: 95%
-			padding-bottom: 0.5em
-			text-align: center
-
-			h1
-				font-size: 2em
-				font-family: 'Josefin Slab'
-				color: $abpBlue
-
-			h2
-				font-size: 1.25em
+			width: 400px
