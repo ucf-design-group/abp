@@ -7,11 +7,11 @@ get_header(); ?>
 		<h1 class="page-title">Trips</h1>
 
 		<ul class="categories">
-			<a href="#"><li>Fall Trips</li></a>
-			<a href="#"><li>Winter Trips</li></a>
-			<a href="#"><li>MLK Trips</li></a>
-			<a href="#"><li>International Trips</li></a>
-			<a href="#"><li>Spring Trips</li></a>
+			<a href="#fall"><li>Fall Trips</li></a>
+			<a href="#winter"><li>Winter Trips</li></a>
+			<a href="#mlk"><li>MLK Trips</li></a>
+			<a href="#international"><li>International Trips</li></a>
+			<a href="#spring"><li>Spring Trips</li></a>
 		</ul>
 
 		<div class="main">
@@ -24,5 +24,26 @@ get_header(); ?>
 		</div>
 
 	</div>
+
+	<script>
+
+	// Smooth scroll to id... but the smooth part isn't working. Remember! 
+
+	$(document).ready(function(){
+
+		$('a[href^="#"]').bind('click.smoothscroll', function(e) {
+			e.preventDefault();
+			var target = this.hash;
+				$target = $(target);
+			$('html', 'body').stop().animate({
+				scrollTop : $target.offset().top
+			}, 200, 'slow', function () {
+				window.location.hash = target;
+			});
+		});
+
+	});
+
+	</script>
 
 <?php get_footer(); ?>
