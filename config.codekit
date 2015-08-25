@@ -215,6 +215,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/resources\/heroimage.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256364,
+		"inputAbbreviatedPath": "\/resources\/heroimage.jpeg",
+		"outputAbbreviatedPath": "\/resources\/heroimage.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/resources\/instagram-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -553,7 +564,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "abp-2015-dev",
+	"displayValue": "abp-2015",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_orange"
 	},
