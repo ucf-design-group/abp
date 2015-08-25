@@ -28,7 +28,9 @@ get_header(); ?>
 				$slug = $post->post_name;
 ?>
 	 		<article id="<?php echo $slug; ?>" class="leader">
-	 			<?php echo $image; ?>
+	 			<div class="image-wrap">
+	 				<?php echo $image; ?>
+	 			</div>
 	 			<div class="info">
 	 				<h1><?php echo $title; ?></h1>
 	 				<?php echo $content; ?>

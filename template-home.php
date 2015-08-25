@@ -6,7 +6,10 @@ get_header(); ?>
 
 		<div class="splash-wrap">
 			<!-- Temporary Placeholder -->
-			<div class="splash-image"/>
+			<!--<div class="splash-image"/>-->
+<?php 
+   	 		echo do_shortcode("[metaslider id=592]"); 
+?>
 		</div>
 
 		<section class="icons">
