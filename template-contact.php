@@ -38,19 +38,19 @@ get_header(); ?>
 					<div class="social-btns">
 						<h2>Follow Us</h2>
 						<div class="facebook-btn">
-							<a href="#" target="_blank">
+							<a href="https://www.facebook.com/UCFAlternativeBreakProgram" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/facebook-logo.png" />
 							<p>FACEBOOK</p>
 							</a>
 						</div>
 						<div class="twitter-btn">
-							<a href="#" target="_blank">
+							<a href="https://twitter.com/vucfabp" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/twitter-logo.png" />
 							<p>TWITTER</p>
 							</a>
 						</div>
 						<div class="instagram-btn">
-							<a href="#" target="_blank">
+							<a href="https://instagram.com/vucfabp/" target="_blank">
 							<img src="<?php echo get_stylesheet_directory_uri() ?>/resources/instagram-logo.png" />
 							<p>INSTAGRAM</p>
 							</a>

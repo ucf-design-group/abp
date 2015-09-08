@@ -37,7 +37,7 @@ get_header(); ?>
 				$target = $(target);
 			$('html', 'body').stop().animate({
 				scrollTop : $target.offset().top
-			}, 200, 'slow', function () {
+			}, 3000, function () {
 				window.location.hash = target;
 			});
 		});
